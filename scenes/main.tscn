@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/match3_grid.gd" id="1_grid"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Match3Grid" type="Node2D" parent="."]
+position = Vector2(32, 64)
+script = ExtResource("1_grid")
